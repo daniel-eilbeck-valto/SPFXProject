@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "crudwithreact-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/crudwithreact/CrudwithreactWebPart.js",
+          "manifest": "./src/webparts/crudwithreact/CrudwithreactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CrudwithreactWebPartStrings": "lib/webparts/crudwithreact/loc/{locale}.js"
+  }
+}
